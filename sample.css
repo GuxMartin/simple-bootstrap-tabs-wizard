@@ -1,0 +1,19 @@
+#fondo{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /* background-color: #424b52; */
+    background-color: #006392;
+    background-image: url('https://cdn.pixabay.com/photo/2016/09/12/03/03/wizard-1662948_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+    animation-name: bg-zoom;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+    z-index: -1;
+}
+@keyframes bg-zoom{
+    100% { transform: scale(1.1); }
+}
