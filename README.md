@@ -1,9 +1,12 @@
 # Simple Bootstrap Tabs Wizard
 Easy wizard
 
+![Example](ejemplo.jpg)
 
 ## Use
 ``` javascript
+<script src="simpleWizard.js"></script>
+
 // Normal
 $("#myTab1").simpleWizard();
 
